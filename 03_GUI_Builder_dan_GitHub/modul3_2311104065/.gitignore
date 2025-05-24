@@ -1,1 +1,19 @@
-.vs/ 
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.bak
+
+# NuGet
+packages/
+
+# build results
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pdb
+*.exe
+*.dll
+
+# other
+*.log
