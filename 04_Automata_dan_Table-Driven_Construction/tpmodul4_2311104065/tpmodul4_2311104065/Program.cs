@@ -1,6 +1,4 @@
-﻿using System;
-
-class Program
+﻿class Program
 {
     static void Main(string[] args)
     {
@@ -25,7 +23,7 @@ class Program
             Console.WriteLine("Kode pos dari \"" + input + "\": " + hasil + "\n");
         }
 
-        State - based simulation
+        // State-based simulation
         Console.WriteLine("\n=== SIMULASI MESIN PINTU ===");
         DoorMachine door = new DoorMachine();
 
