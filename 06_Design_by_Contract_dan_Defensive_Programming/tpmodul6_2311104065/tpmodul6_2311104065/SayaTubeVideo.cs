@@ -9,8 +9,13 @@ namespace tpmodul6_2311104065
 
         public SayaTubeVideo(string title)
         {
+            if (string.IsNullOrEmpty(title) || title.Length > 100)
+            {
+                throw new ArgumentException("Judul video tidak boleh null dan maksimal 100 karakter.");
+            }
+
             Random random = new Random();
-            this.id = random.Next(10000, 99999); // generate random 5 digit number
+            this.id = random.Next(10000, 99999);
             this.title = title;
             this.playCount = 0;
         }
@@ -20,6 +25,12 @@ namespace tpmodul6_2311104065
             if (count < 0)
             {
                 Console.WriteLine("Play count yang ditambahkan tidak boleh negatif.");
+                return;
+            }
+
+            if (count > 10000000)
+            {
+                Console.WriteLine("Jumlah penambahan play count tidak boleh lebih dari 10.000.000.");
                 return;
             }
 
@@ -33,7 +44,7 @@ namespace tpmodul6_2311104065
             catch (OverflowException)
             {
                 Console.WriteLine("Jumlah play count melebihi batas maksimal.");
-                playCount = int.MaxValue;
+                playCount = int.MaxValue; 
             }
         }
 
