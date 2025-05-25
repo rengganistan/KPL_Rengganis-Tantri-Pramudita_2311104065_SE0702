@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{B2E36FBC-6CA3-44E0-84E1-05202C1FB709}|tpmodul5_2311104065\\tpmodul5_2311104065.csproj|c:\\kpl_rengganis-tantri-pramudita_2311104065_se0702\\05_generics\\tpmodul5_2311104065\\tpmodul5_2311104065\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B2E36FBC-6CA3-44E0-84E1-05202C1FB709}|tpmodul5_2311104065\\tpmodul5_2311104065.csproj|solutionrelative:tpmodul5_2311104065\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B2E36FBC-6CA3-44E0-84E1-05202C1FB709}|tpmodul5_2311104065\\tpmodul5_2311104065.csproj|c:\\kpl_rengganis-tantri-pramudita_2311104065_se0702\\05_generics\\tpmodul5_2311104065\\tpmodul5_2311104065\\halogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B2E36FBC-6CA3-44E0-84E1-05202C1FB709}|tpmodul5_2311104065\\tpmodul5_2311104065.csproj|solutionrelative:tpmodul5_2311104065\\halogeneric.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HaloGeneric.cs",
+              "DocumentMoniker": "C:\\KPL_Rengganis-Tantri-Pramudita_2311104065_SE0702\\05_Generics\\tpmodul5_2311104065\\tpmodul5_2311104065\\HaloGeneric.cs",
+              "RelativeDocumentMoniker": "tpmodul5_2311104065\\HaloGeneric.cs",
+              "ToolTip": "C:\\KPL_Rengganis-Tantri-Pramudita_2311104065_SE0702\\05_Generics\\tpmodul5_2311104065\\tpmodul5_2311104065\\HaloGeneric.cs",
+              "RelativeToolTip": "tpmodul5_2311104065\\HaloGeneric.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:52:05.726Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +41,7 @@
               "RelativeDocumentMoniker": "tpmodul5_2311104065\\Program.cs",
               "ToolTip": "C:\\KPL_Rengganis-Tantri-Pramudita_2311104065_SE0702\\05_Generics\\tpmodul5_2311104065\\tpmodul5_2311104065\\Program.cs",
               "RelativeToolTip": "tpmodul5_2311104065\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-25T12:45:54.489Z",
               "EditorCaption": ""
