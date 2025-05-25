@@ -9,8 +9,11 @@ public class SayaTubeUser
 
     public SayaTubeUser(string username)
     {
-        if (string.IsNullOrEmpty(username) || username.Length > 100)
-            throw new ArgumentException("Username tidak boleh kosong dan maksimal 100 karakter.");
+        // Precondition
+        if (string.IsNullOrEmpty(username))
+            throw new ArgumentException("Username tidak boleh null atau kosong.");
+        if (username.Length > 100)
+            throw new ArgumentException("Username maksimal 100 karakter.");
 
         Random rnd = new Random();
         this.id = rnd.Next(10000, 99999);
@@ -20,8 +23,11 @@ public class SayaTubeUser
 
     public void AddVideo(SayaTubeVideo video)
     {
+        // Precondition
         if (video == null)
             throw new ArgumentNullException("Video tidak boleh null.");
+        if (video.GetPlayCount() >= int.MaxValue)
+            throw new ArgumentException("Play count video sudah mencapai batas maksimum.");
 
         uploadedVideos.Add(video);
     }
@@ -39,7 +45,8 @@ public class SayaTubeUser
     public void PrintAllVideoPlaycount()
     {
         Console.WriteLine("User: " + Username);
-        for (int i = 0; i < uploadedVideos.Count; i++)
+        int count = Math.Min(8, uploadedVideos.Count); 
+        for (int i = 0; i < count; i++)
         {
             Console.WriteLine("Video " + (i + 1) + " judul: " + uploadedVideos[i].GetTitle());
         }
